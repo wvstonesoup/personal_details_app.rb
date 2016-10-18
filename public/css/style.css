@@ -1,0 +1,15 @@
+.somecolor {color: green;}
+#somecolor {color: purple}
+#maintextsize {font-size:2.0rem; text-align: center;}				
+
+ul{ text-align:center;	} 						
+
+li { display:inline; 
+	padding-right:1.0rem;  
+	font-size:2.0rem; } 
+li a {	color: red	} 
+
+	img {display: block;margin: auto;}
+p{ font-size:2.0rem;									color:blue;										font-weight:bold;	}
+footer{ background-color:gray;               	color:#ffffff;	}             
+footer p { text-align: center;  font-size:2.5rem; font-color:white; } 									

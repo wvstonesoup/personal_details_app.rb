@@ -1,9 +1,12 @@
-Hello <%=name%>. Give me your 3 favorite numbers:
-<form method = "post" action = "numbers">
-	<input type = "number" name = "num1">
-	<input type = "number" name = "num2">
-	<input type = "number" name = "num3">
+<p class="somecolor">
+Hello <%=name%> who happens to be <%= age %>. Please give me your 3 favorite numbers:
+</p>
+<form method = "post" action = "/numbers">
 	<input type = "number" name = "user_age" value = <%= age %> hidden>
 	<input type="text" name="user_name" 	value = <%= name %> hidden>
+	<input type = "number" name = "num1" autofocus="autofocus">
+	<input type = "number" name = "num2">
+	<input type = "number" name = "num3">
 	<input type = "submit">	
+	
 </form>

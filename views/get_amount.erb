@@ -1,0 +1,11 @@
+<p class="somecolor">
+<p id="maintext">
+Here's what I know so far.  Your name is <%= name %>, you are <%= age%> years old, and your lucky number is <%= total %>. Now let me get your change. Please enter an amount:
+</p>
+<form method = "post" action = "/amount">
+	<input type = "number" name = "money_tendered">
+	<input type="text" name="user_name" value = <%= name %> hidden>
+	<input type = "submit">	
+</form>
+
+

@@ -1,6 +1,10 @@
+<p id="maintextsize"></p>
+<p id="somecolor">
+
 Hello <%= name %>. What is your age?
+</p>
 <form method = "post" action = "age">
-	<input type = "number" name = "user_age">
+	<input type = "number" name = "user_age"autofocus="autofocus">
 	<input type = "text" name = "user_name" value = <%= name %> hidden>
 	<input type = "submit">
 </form>
