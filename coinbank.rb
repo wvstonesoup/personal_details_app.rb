@@ -26,7 +26,7 @@ def change(cents_received)
 	change = ""
 	coins.each do |key, value|
 		if value > 0
-		change << " " + value.to_s + " " + key.to_s+ "'s"
+		change << " " + value.to_s + " " + key.to_s+ "(s)"
 	    end
 		
 	end

@@ -37,7 +37,7 @@ post '/numbers' do
 	redirect '/amount?user_name=' + name + '&user_age=' + age + '&num1=' + number1 + '&num2=' + number2 + '&num3=' + number3 
 end
 
-#something breaks this at line 37. TypeError at numbers/ no implicit conversion of nil into string
+#something breaks this at line 37. TypeError at numbers/ no implicit conversion of nil into string--haha. found it. i had my submit button before the hidden name and age. so it didnt capture those variables to pass on. gotta remember that error code.
 
 get '/amount' do
 	age = params[:user_age]

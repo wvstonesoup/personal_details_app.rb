@@ -1,5 +1,5 @@
-.somecolor {color: green;}
-#somecolor {color: purple}
+.somecolor {color: blue;}
+#somecolor {color: black}
 #maintextsize {font-size:2.0rem; text-align: center;}				
 
 ul{ text-align:center;	} 						
@@ -7,7 +7,7 @@ ul{ text-align:center;	}
 li { display:inline; 
 	padding-right:1.0rem;  
 	font-size:2.0rem; } 
-li a {	color: red	} 
+li a {	color: gray	} 
 
 	img {display: block;margin: auto;}
 p{ font-size:2.0rem;									color:blue;										font-weight:bold;	}
